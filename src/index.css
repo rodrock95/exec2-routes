@@ -7,6 +7,7 @@
 
   --color-font-primary: #6f6f6f;
   --color-font-secondary: #fff;
+  --color-font-tertiary: #6e6e6e;
 }
 
 * {
@@ -41,4 +42,13 @@ a, a:hover{
 
 .mt30 {
   margin-top: 30px;
+}
+
+.section-title{
+  color: var(--color-font-tertiary) ;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 17px;
 }
